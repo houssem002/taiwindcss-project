@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Blog Landing Page</title>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <!-- Header -->
+    <header class="bg-white shadow p-5">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-xl font-bold">Blog Name</h1>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#" class="text-blue-500 hover:text-blue-700">Home</a></li>
+                    <li><a href="#" class="text-blue-500 hover:text-blue-700">About</a></li>
+                    <li><a href="#" class="text-blue-500 hover:text-blue-700">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Featured Posts Section -->
+    <section class="container mx-auto my-10">
+        <h2 class="text-2xl font-bold mb-5">Featured Posts</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <article class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="post-image1.jpg" alt="Post Title 1" class="w-full h-48 object-cover">
+                <div class="p-5">
+                    <h3 class="text-lg font-semibold">Post Title 1</h3>
+                    <p class="text-gray-600">This is a brief excerpt of the post...</p>
+                </div>
+            </article>
+            <article class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="post-image.jpg" alt="Post Title 2" class="w-full h-48 object-cover">
+                <div class="p-5">
+                    <h3 class="text-lg font-semibold">Post Title 2</h3>
+                    <p class="text-gray-600">Andrew Stanton redeems himself for the $200 million failure of John Carter</p>
+                </div>
+            </article>
+            <article class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="post-image3.jpg" alt="Post Title 3" class="w-full h-48 object-cover">
+                <div class="p-5">
+                    <h3 class="text-lg font-semibold">Post Title 3</h3>
+                    <p class="text-gray-600">It is the same since 80's</p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- Category Section -->
+    <section class="container mx-auto my-10">
+        <h2 class="text-2xl font-bold mb-5">Categories</h2>
+        <div class="flex flex-wrap space-x-4">
+            <span class="bg-blue-200 text-blue-800 text-sm font-semibold mr-2 px-2.5 py-0.5 rounded">Category 1</span>
+            <span class="bg-blue-200 text-blue-800 text-sm font-semibold mr-2 px-2.5 py-0.5 rounded">Category 2</span>
+            <span class="bg-blue-200 text-blue-800 text-sm font-semibold mr-2 px-2.5 py-0.5 rounded">Category 3</span>
+            <span class="bg-blue-200 text-blue-800 text-sm font-semibold mr-2 px-2.5 py-0.5 rounded">Category 4</span>
+        </div>
+    </section>
+
+    <!-- Recent Posts Section -->
+    <section class="container mx-auto my-10">
+        <h2 class="text-2xl font-bold mb-5">Recent Posts</h2>
+        <ul class="space-y-4">
+            <li class="border-b pb-2">
+                <h3 class="text-lg font-semibold">Recent Post Title 1</h3>
+                <span class="text-gray-500">Published on September 30, 2024</span>
+            </li>
+            <li class="border-b pb-2">
+                <h3 class="text-lg font-semibold">Recent Post Title 2</h3>
+                <span class="text-gray-500">Published on September 29, 2024</span>
+            </li>
+            <li class="border-b pb-2">
+                <h3 class="text-lg font-semibold">Recent Post Title 3</h3>
+                <span class="text-gray-500">Published on September 28, 2024</span>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Newsletter Subscription Form -->
+    <section class="container mx-auto my-10">
+        <h2 class="text-2xl font-bold mb-5">Subscribe to Our Newsletter</h2>
+        <form class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
+            <input type="email" placeholder="Your Email Address" class="flex-1 p-3 border border-gray-300 rounded" required>
+            <button type="submit" class="bg-blue-500 text-white font-bold py-3 px-6 rounded hover:bg-blue-600">Subscribe</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white border-t mt-10">
+        <div class="container mx-auto py-5 flex flex-col md:flex-row justify-between">
+            <div class="text-gray-600">© 2024 Blog Name. All rights reserved.</div>
+            <div class="flex space-x-4">
+                <a href="#" class="text-gray-600 hover:text-blue-500">Facebook</a>
+                <a href="#" class="text-gray-600 hover:text-blue-500">Twitter</a>
+                <a href="#" class="text-gray-600 hover:text-blue-500">Instagram</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
